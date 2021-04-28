@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.wrapper{
+    position: absolute;
+width: 30%;
+height: 3625px;
+left: 0px;
+top: 0px;
+
+background: #F3F3FD;
+}
+
+.nav{
+    position: absolute;
+    width: 300px;
+    height: 2971px;
+    left: 69px;
+    top: 60px;
+    
+    background: #323484;
+    box-shadow: -20px 0px 50px rgba(50, 52, 132, 0.3), 20px 30px 50px rgba(50, 52, 132, 0.3);
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+.tagline{
+    font-family: 'Russo One', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+}
+
+
+.span{
+    font-family: 'Rochester', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+
+color: #FFFFFF;
+}
+
+.profile img{
+      float: left;
+      border-radius: 50%;
+      border: 1px solid skyblue;
+      height:50px;
+    width:50px; 
+    position: relative;
+    left: 5px;
+}
+.profile{
+    display: flex;
+    padding-left: 10px;
+}
+.bio{
+    padding-left: 30px;
+}
+select{
+    position: relative;
+    left: 30px;
+    top: 10px;
+    width: 26px;
+    height: 30px;
+    background: #9496FF;
+border-radius: 6px;
+color: white;
+}
+
+.bio p{
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #D7DAFF;
+
+position: relative;
+bottom: 12px;
+
+}
+
+.bio #email{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #97CEA8;
+position: relative;
+bottom: 27px;
+}
+
+
+
+
+.listitems ul li{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-style: normal;
+    padding: 20px;
+    text-align: left;
+}
+
+.wrapper1{
+    background: #F3F3FD;
+    height: 3625px;
+}
+
+.title{
+    background-color: #323484;
+    border-radius: 20px;
+    height: 80px;
+    margin-left: 31%;
+    margin-top: 60px;
+color:white;
+}
+
+.title p{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.tm{
+    border: 1px solid skyblue;
+    background: #FFFFFF;
+box-shadow: 0px 10px 40px rgba(72, 72, 72, 0.2);
+backdrop-filter: blur(500px);
+width: 160px;
+height: 110px;
+border-radius: 20px;
+margin-right: 20px;
+display: flex;
+
+}
+
+.headtm{
+    margin-left: 31%;
+    display: flex;
+    
+}
+
+.tm p{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.tm  .fa-rocket{
+    position: relative;
+    left: 30px;
+    top: 40px;
+}
+.tm .fa-fire-alt{
+    position: relative;
+    left: 30px;
+    top: 40px;
+}
+
+.tm .fa-chart-line{
+    position: relative;
+    left: 30px;
+    top: 40px;
+}
+
+.create{
+    background: linear-gradient(180deg, #FFCB9D 0%, #FFEE9D 100%);
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.16);
+border-radius: 0px 0px 40px 40px;
+width: 310px;
+height: 368px;
+margin-left: 76%;
+margin-top:-144px;
+}
+
+.create p{
+    padding: 20px;
+    font-size:large;
+    font-family: 'Poppins', sans-serif;
+}
+
+.create ul li{
+    list-style: none;
+    background: #FFFFFF;
+    box-shadow: 0px 17px 20px rgba(249, 211, 102, 0.4);
+    border-radius: 20px;
+    width: 236px;
+    height: 68px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.create ul li a{
+    text-decoration: none;
+    color: black;
+     position: relative;
+     top: 20px;
+   
+}
+
+.graph{
+    background: #D8E4FF;
+border: 2px solid #D8E4FF;
+border-radius: 20px;
+width: 550px;
+height: 450px;
+margin-left: 31%;
+position: relative;
+bottom: 220px;
+}
+
+.subgraph{
+    background: #FDFFFF;
+box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.17);
+border-radius: 20px;
+width: 440px;
+height: 400px;
+}
+
+.subgraph p{
+        padding: 20px;
+        font-size:large;
+        font-family: 'Poppins', sans-serif;
+        color: #282CD5;
+}
+
+
+.listday ul li{
+    list-style: none;
+    position: relative;
+    left: 420px;
+    bottom: 120px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 20px rgba(188, 209, 255, 0.6);
+    border-radius: 10px;
+    width: 80px;
+    padding-bottom: 7px;
+    margin-top: 5px;
+}
+
+.listday ul{
+    text-align: center;
+    
+}
+
+.weekly{
+background: #FFFFFF;
+border: 1px solid #D8E4FF;
+box-sizing: border-box;
+box-shadow: 8px 8px 40px rgba(254, 233, 125, 0.2);
+border-radius: 20px;
+margin-left: 31%;
+width: 303px;
+height: 210px;
+position: relative;
+left:600px;
+bottom: 430px;
+}
+
+.weekly p{
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.subweek {
+    display: flex;
+}
+.subweek ul{
+    background: #FFFFFF;
+box-shadow: 3px 10px 10px rgba(183, 113, 255, 0.25);
+border-radius: 10px;
+border: 1px solid gray;
+height: 100px;
+width: 50px;
+margin-left: 5px;
+position: relative;
+bottom: 20px;
+}
+
+.subweek ul li 
+{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-size: 14px;
+color: #323484;
+position: relative;
+left: -10px;
+top: 30px;
+}
+
+.arrival{
+    background: #FFF1BC;
+border-radius: 20px;
+margin-left: 31%;
+width: 910px;
+height: 400px;
+position: absolute;
+top:780px;
+}
+
+.arrival p{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.08em;
+padding:20px;
+color: #282CD5;
+}
+
+.arrival .at {
+    background: #FDFFFF;
+    box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.17);
+    border-radius: 20px;
+    width: 500px;
+    height: 260px;
+    margin-left: 20px;
+}
+
+.arrival .at table{
+      padding:20px;
+}
+
+
+.at table tbody td img{
+       border-radius: 10px;
+       border:1px solid white;
+}
+
+.at table tbody td{
+
+    padding:5px;
+    font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 125.4%;
+/* identical to box height, or 20px */
+
+letter-spacing: 0.01em;
+
+color: #323484;
+}
+
+.at table thead th{
+    font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 125.4%;
+/* identical to box height, or 23px */
+
+letter-spacing: 0.01em;
+
+color: #000000;
+border-bottom:1px solid gray;
+}
+
+
+.arrival img{
+    position: absolute;
+    top: 140px;
+    left: 600px;
+}
+
+
+.latestmedia{
+    background: #D8E4FF;
+border-radius: 20px 20px ;
+margin-left: 31%;
+width: 400px;
+height: 680px;
+position: relative;
+top: 20px;
+}
+
+.submedia{
+    background: #FFFFFF;
+border-radius: 20px;
+border-radius: 0px 0px 20px 20px;
+width: 400px;
+height: 680px;
+}
+
+.latestmedia p{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.08em;
+
+color: #282CD5;
+padding:15px;
+} 
+
+
+.submedia .div{
+    display: flex;
+    list-style: none;
+}
+.div{
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    
+}
+
+.div li{
+    padding-left:30px;
+    padding-top: 10px;
+}
+
+.fa-edit{
+   position: relative;
+   bottom: 20px;
+}
+
+.fa-share-alt{
+    position: relative;
+    bottom: 20px;
+    padding-left: 15px;
+}
+
+.div p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    color: #282CD5;
+    font-size: 13px;
+}
+
+
+
+.latestmedia1{
+    background: #D8E4FF;
+border-radius: 20px 20px ;
+margin-left: 31%;
+width: 400px;
+height: 680px;
+position: absolute;
+top:1210px;
+left: 500px;
+}
+
+.submedia1{
+    background: #FFFFFF;
+border-radius: 20px;
+border-radius: 0px 0px 20px 20px;
+width: 400px;
+height: 680px;
+}
+
+.latestmedia1 p{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.08em;
+
+color: #282CD5;
+padding:15px;
+} 
+
+
+.submedia1 .div{
+    display: flex;
+    list-style: none;
+}
+
+.div p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    color: #282CD5;
+    font-size: 13px;
+}
+
+
+.imggraph{
+    background: #FFFFFF;
+border-radius: 20px;
+margin-left: 31%;
+width: 895px;
+height: 250px;
+position: relative;
+top: 290px;
+}
+
+.imggraph img{
+    background-color: lightgreen;
+    width: 895px;
+    height: 300px;
+    border-radius: 20px;
+    position: relative;
+    top: -150px;
+}
+
+
+.recent{
+    font-family: Poppins; font-family: 'Poppins', sans-serif;-spacing: 0.08em;
+font-style: normal;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0.08em;
+
+color: #323484;
+margin-left: 31%;
+width: 900px;
+height: 600px;
+position: relative;
+top: 200px;
+background: #FFFFFF;
+border: 1px solid #D8D9FE;
+box-sizing: border-box;
+border-radius: 20px;
+padding:20px;
+}
+
+
+.recent1 table tbody tr td{
+    padding: 0px 50px;
+}
+
+
+.recent1 table thead th{
+    padding: 0px 60px;
+    border-bottom: 1px solid lightgray;
+}
+
+.share{
+border-radius: 10px;
+width: 50px;
+height: 50px;
+position: relative;
+top: 30px;
+bottom: -20px;
+}
+.fa-trash-alt{
+border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
